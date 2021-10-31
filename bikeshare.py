@@ -185,8 +185,8 @@ def individual_data(df):
     df_length = len(df.index)
     
     while start_data < df_length:
-        raw_data = input("\nWould you like to see individual trip data? Enter 'yes' or 'no'.\n")
-        if raw_data.lower() == 'yes':
+        raw_data = input("\nWould you like to see individual trip data? Enter '1. Yes' or '2. No'.\n")
+        if raw_data.lower() == '1':
             
             print("\nDisplaying only 5 rows of data.\n")
             if end_data > df_length:
