@@ -12,13 +12,14 @@ In this project, I Used Python to explore data related to bike share systems for
 ### Files used
 Include the files used
 These are the files i used
-chicago.csv
-washington.csv
-new_york_city.csv
-bikeshare.py
+### chicago.csv
+### washington.csv
+
+### new_york_city.csv
+### bikeshare.py
 
 ### Credits
-https://pandas.pydata.org
-https://www.python-course.eu/python3_input.php
-https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response
-https://stackoverflow.com/questions/2847386/python-string-and-integer-concatenation
+**https://pandas.pydata.org**
+**https://www.python-course.eu/python3_input.php**
+**https://stackoverflow.com/questions/23294658/asking-the-user-for-input-until-they-give-a-valid-response**
+**https://stackoverflow.com/questions/2847386/python-string-and-integer-concatenation**
