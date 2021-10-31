@@ -21,8 +21,8 @@ def get_filters():
     while city not in CITY_DATA.keys():
         print("\nWelcome to this program. Please choose your city:")
         print("\n1. Chicago \n2. New York City \n3. Washington")
-        print("\nPlease Type Your Reponse As An Integer (e.g 1 = chicago))")
-        city = input().lower()
+        # print("\nPlease Type Your Reponse As An Integer (e.g 1 = chicago))")
+        city = input("\nPlease Type Your Reponse As An Integer (e.g 1 = chicago))").lower()
         if city not in CITY_DATA.keys():
             print("\nSorry You have Entered Wrong Input, TRY AGAIN!!!")
             print("\nRestarting... Please Wait")
@@ -39,8 +39,8 @@ def get_filters():
         
         print("\nPlease Enter The Month:")
         print("\n1. January \n2. February \n3. March\n4. April \n5. May \n6. June\n7. All Months")
-        print("\nPlease Type Your Reponse As An Integer (e.g 1 = January))")
-        month = input().lower()
+        # print("\nPlease Type Your Reponse As An Integer (e.g 1 = January))")
+        month = input("\nPlease Type Your Reponse As An Integer (e.g 1 = January))").lower()
         if month not in Months.keys():
             print("\nSorry You have Entered Wrong Input, TRY AGAIN!!!")
             print("\nRestarting... Please Wait")
@@ -57,9 +57,9 @@ def get_filters():
     day = ''
     while day not in Days:
         print("\n1. monday\n2. tuesday\n3. wednesday\n4. thursday\n5. friday\n6. saturday\n7. sunday \n8. all")
-        print("\nPlease Type Your Reponse As An Integer (e.g 1 = monday))")
+        # print("\nPlease Type Your Reponse As An Integer (e.g 1 = monday))")
        
-        day = input().lower()
+        day = input("\nPlease Type Your Reponse As An Integer (e.g 1 = monday))").lower()
 
         if day not in Days:
             print("\nSorry You have Entered Wrong Input, TRY AGAIN!!!")
